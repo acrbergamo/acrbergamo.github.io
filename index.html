@@ -1,84 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Bem vindo</title>
+<html>
 
-         <!--Google Fonts-->
-        <link 
-            href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" 
-            rel="stylesheet">
 
-        <!--Font Awesome-->
-        <link 
-            rel="stylesheet" 
-            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
-            crossorigin="anonymous">
+<head>
+  <title>Meu Currículo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
 
-        <!--Meu estilo-->
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <main class="container">
-            <article>
-                <section class="foto-social">
-                    <div class="foto">
-                        <img src="../img/eu.jpg" alt="Minha foto" title="Adriano Bergamo">
-                    </div>
-                    <ul class="social">
-                        <li>  
-                            <a href="#" target="_blank">
-                                <span class="fab fa-linkedin-in"></span>
-                            </a>
-                        </li>
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
 
-                        <li>
-                            <a href="#" target="_blank">
-                                    <span class="fab fa-youtube"></span>
-                            </a>
-                        </li>
+    .container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
 
-                        <li>  
-                            <a href="#" target="_blank">
-                                <span class="fab fa-facebook-f"></span>
-                            </a>
-                        </li>
+    .profile-img {
+      max-width: 200px;
+      margin-right: 20px;
+    }
 
-                        <li>  
-                            <a href="#" target="_blank">
-                                <span class="fab fa-twitter"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="texto">
-                    <h1>Quem sou eu ?</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Scelerisque in dictum non consectetur a 
-                        erat nam. Amet volutpat consequat mauris nunc congue nisi. 
-                        Tortor at risus viverra adipiscing at.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Scelerisque in dictum non consectetur a 
-                        erat nam. Amet volutpat consequat mauris nunc congue nisi. 
-                        Tortor at risus viverra adipiscing at.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Scelerisque in dictum non consectetur a 
-                        erat nam. Amet volutpat consequat mauris nunc congue nisi. 
-                        Tortor at risus viverra adipiscing at.
-                    </p>
-                </section>
-            </article>
-        </main>
-    </body>
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Meu Currículo</h1>
+  
+  <div class="container">
+    <img class="profile-img" src="img/eu.jpg" alt="Minha Foto">
+    <p>
+      Adriano Cassio Rocha Bergamo <br>
+      Brasileiro, solteiro, 32 anos <br>
+      Rua Nestor Pestana, São Paulo – SP <br>
+      E-mail: adrianocrbergamo@outlook.com <br>
+      https://linktr.ee/acrbergamo
+    </p>
+  </div>
+
+  <h2>Perfil</h2>
+  <ul>
+    <li>Sou uma pessoa analítica, observadora, com uma vasta experiência em autodidatismo e uma habilidade inata para aprender novas competências.
+       Sou um entusiasta na resolução de problemas através de soluções heurísticas com múltiplas abordagens para soluções bem ajustadas.
+        Minha abordagem estruturada e meu pensamento lógico-pragmático me permite enfrentar desafios de forma eficiente, cumprir prazos e alcançar resultados.
+         Estou sempre empenhado em aprimorar minhas habilidades e aprender continuamente, buscando me adaptar às demandas em constante evolução.
+          Com uma mentalidade orientada para resultados e uma atitude proativa, estou entusiasmado para contribuir com soluções valiosas em um ambiente dinâmico e inovador.</li>
+  </ul>
+
+  <h2>Principais Habilidades</h2>
+  <ul>
+    <li>Excel Avançado - Elaboração de análises gerais e automações - VBA.</li>
+    <li>Power BI - Construção de KPI, mapas e painéis para acompanhamento de gestão - DAX</li>
+    <li>Python - Análise de dados e modelagem preditiva usando Machine Learning - Pandas, Matplotlib, Scikit-Learn, Keras e TensorFlow</li>
+    <li>Experiência em Marketing Digital e gestão de carteira de clientes externos e internos.</li>
+  </ul>
+
+  <h2>Experiência Profissional</h2>
+  <ul>
+    <li>Analista de Pesquisa de Mercado - Inteligência de Mercado <br>
+        Nortis Incorporadora e Construtora S.A. <br>
+        Julho 2018 - Março de 2020 <br>
+
+        <p>Levantamento, estruturação, análise e apresentação de estudos de mercado para implementação de projetos resistências verticais.
+           Apoio e suporte as áreas de marketing para criação de perfis de clientes internos e externos.  Implementação e gestão de sistemas de CRM.</li>
+        </p>
+    <li>Assistente de CRM <br>
+        Even Vendas - Evenmob Consultoria de Imóveis LTDA. <br>
+        Maio 2017 - Maio 2018 <br>
+
+        <p> Gestão e organização de leads para sistema de CRM voltado para corretores.
+           Criação de painéis de gestão de negócios imobiliário. Automação de processos.
+        </p>
+      
+    </li>
+  </ul>
+
+  <h2>FORMAÇÃO Formação Acadêmica</h2>
+  <ul>
+    <li>ANÁLISE E DESENVOLVIMENTO DE SISTEMAS | Universidade Cruzeiro do Sul - Unicsul | 2017</li>
+    <li>FILOSOFIA | Universidade de São Paulo - USP | 2014 </li>
+    <li>TÉCNICO ADMINISTRAÇÃO DE EMPRESAS | Escola Técnica Camargo Aranha </li>
+  </ul>
+
+  
+
+</body>
+
 </html>
