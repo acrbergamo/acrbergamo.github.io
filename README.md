@@ -1,3 +1,3 @@
 # acrbergamo.github.io
-Meu currículo profissional.
+Meu currículo profissional acesse:
 https://acrbergamo.github.io/
